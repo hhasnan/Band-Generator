@@ -1,0 +1,12 @@
+<%- include("partials/header.ejs") %>
+    <section class="band-name-gen">
+        <form action="/submit" method="POST">
+            <% if(locals.adjName && locals.nounName) { %>
+                <h1><%= adjName %> <%= nounName %></h1>
+            <% }else { %>
+                <h1>Click on the button below 👇🏼 to generate name</h1>
+            <% } %>
+            <input type="submit" value="Generate Now">
+        </form>
+    </section>
+<%- include("partials/footer.ejs") %>

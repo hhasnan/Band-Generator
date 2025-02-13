@@ -1,0 +1,43 @@
+
+body {
+    background-color: rgb(241, 200, 139);
+    width: 90%;
+    margin: auto;
+}
+
+body .band-name-gen{
+    height: calc(100vh - 47px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+body .band-name-gen h1 {
+    background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf); 
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text; 
+}
+
+body .band-name-gen input {
+    border: none;
+    width: 160px;
+    height: 45px;
+    margin-top : 20px;
+    background-color: rgb(234, 54, 54);
+    color: white;
+    border-radius: 13px;
+}
+
+body .band-name-gen input:active {
+    background-color: rgb(181, 30, 30);
+}
+
+footer {
+    margin: auto;
+    height: 29px;
+    margin-bottom: 15px;
+}
+footer p {
+    color: #f32170;
+    font-weight: 500;
+}
